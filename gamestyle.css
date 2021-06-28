@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-image: url(game.jpg);
+  color: white;
+  margin: 3em;
+}
+h1{
+  color:lime;
+  font-size: 50px;
+}
+p{
+  font-size: 25px;
+}
+button {
+  background:white;
+  border: none;
+  width:135px;
+  height: 125px;
+  /*padding: 10px 15px;*/
+  font-size: 24px;
+  font-family: monospace;
+  font-weight: bold;
+  border-radius: 50%;
+  margin: 20px;
+  border-color: black;
+}
+
+#rock,#paper,#scissors{
+  font-size: 100px;
+  color: rgb(55, 0, 255);
+
+}
+
+
+strong{
+  color: lime;
+}
+button:active {
+  background:aqua;
+}
+
+.scoreboard {
+  width: 14em;
+  margin: auto;
+  border: 3px solid red;
+}
+.scoreboard h2 {
+  border-bottom: 4px solid red;
+  margin: 0;
+  padding: 10px;
+  color: lime;
+}
+.scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.scoreboard th, .scoreboard td {
+  text-align: center;
+  color: lime;
+}
+
+.scoreboard td {
+  font-size: 3em;
+  padding: 0 20px;
+}
+
+#status p{
+  margin-top: 20px;
+  color: lime;
+  font-size: 30px;
+font-weight: bolder;
+}
+
+#reset{
+  border-radius: 0%;
+  height: 50px;
+  margin-bottom: 2px;
+}
